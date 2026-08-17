@@ -200,3 +200,137 @@ footer {
         font-size: 2.5rem;
     }
 }
+
+/* Tutorial Page Layout Styles */
+.tutorial-page {
+    max-width: 900px;
+}
+
+.breadcrumb {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.breadcrumb a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.tutorial-header {
+    text-align: left;
+    background: none;
+    padding: 0 0 2rem 0;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 2rem;
+}
+
+.tutorial-header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.tutorial-meta {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.badge {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    padding: 0.3rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent-color);
+}
+
+.materials-box {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.materials-box h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: var(--text-main);
+}
+
+.materials-box ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.8rem;
+}
+
+.materials-box li {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.steps-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.step-card {
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.step-number {
+    background-color: var(--accent-color);
+    color: #000;
+    font-weight: 800;
+    padding: 0.5rem 1.5rem;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    align-self: flex-start;
+    border-bottom-right-radius: 6px;
+}
+
+.step-content {
+    padding: 1.5rem;
+}
+
+.step-content h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.8rem;
+}
+
+.step-content p {
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+}
+
+.step-img-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: #181818;
+    border: 2px dashed var(--border-color);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+/* When you add real images later, replace the placeholder div with an <img> tag and use this class */
+.step-img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}

@@ -12,8 +12,8 @@
         <div class="logo"><a href="index.html" style="color:inherit; text-decoration:none;">Build Now <span>GG</span></a></div>
         <ul class="nav-links">
             <li><a href="index.html">Home</a></li>
-            <li><a href="https://discord.com/invite/My26Dhz4Dv">Discord Server</a></li>
-            <li><a href="https://www.youtube.com/@Yvaine_Main">YouTube Channel</a></li>
+            <li><a href="https://discord.com/invite/My26Dhz4Dv" target="_blank" rel="noopener noreferrer">Discord Server</a></li>
+            <li><a href="https://www.youtube.com/@Yvaine_Main" target="_blank" rel="noopener noreferrer">YouTube Channel</a></li>
         </ul>
     </nav>
 
@@ -23,14 +23,38 @@
         </div>
 
         <header class="tutorial-header">
-            <h1>Lantern Pillar</h1>
-            <p>Learn how to build a small Lantern Pillar for your mid-early game survival world.</p>
+            <div class="header-main-content">
+                <div class="header-text">
+                    <h1>Lantern Pillar</h1>
+                    <p>Learn how to build a small Lantern Pillar for your mid-early game survival world.</p>
+                </div>
+                <div class="action-buttons">
+                    <a href="#steps-section" class="btn secondary-btn">
+                        <span>Step by Step Guide</span>
+                    </a>
+                    <a href="#video-section" class="btn youtube-btn">
+                        <svg class="yt-icon" viewBox="0 0 24 24" width="20" height="20">
+                            <path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        <span>Watch Video Tutorial</span>
+                    </a>
+                </div>
+            </div>
+
             <div class="tutorial-meta">
                 <span class="badge">Category: Decoration</span>
                 <span class="badge">Difficulty: Easy</span>
                 <span class="badge">Steps: 7</span>
             </div>
         </header>
+
+        <!-- Video Section (Jump Target) -->
+        <section id="video-section" class="video-embed-box">
+            <h2>Video Tutorial</h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/B4-UnQ-w3p0" title="Lantern Pillar Video Guide" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
 
         <section class="materials-box">
             <h2>Required Materials</h2>
@@ -41,17 +65,16 @@
             </ul>
         </section>
 
-        <div class="steps-container">
-          
+        <div id="steps-section" class="steps-container">
             <div class="step-card">
-            <div class="step-number">Step 1</div>
+                <div class="step-number">Step 1</div>
                 <div class="step-content">
                     <div class="step-img-container">
                         <img src="Builds/Lantern_Pillar/1.png" class="step-img" alt="Layer 1">
                     </div>
                 </div>
             </div>
-          
+        
             <div class="step-card">
                 <div class="step-number">Step 2</div>
                 <div class="step-content">
@@ -71,7 +94,7 @@
             </div>
 
             <div class="step-card">
-            <div class="step-number">Step 4</div>
+                <div class="step-number">Step 4</div>
                 <div class="step-content">
                     <div class="step-img-container">
                         <img src="Builds/Lantern_Pillar/4.png" class="step-img" alt="Layer 4">
@@ -89,7 +112,7 @@
             </div>
 
             <div class="step-card">
-            <div class="step-number">Step 6</div>
+                <div class="step-number">Step 6</div>
                 <div class="step-content">
                     <div class="step-img-container">
                         <img src="Builds/Lantern_Pillar/6.png" class="step-img" alt="Layer 6">
@@ -105,7 +128,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </main>
 
